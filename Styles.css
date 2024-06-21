@@ -1,18 +1,70 @@
 #head {
     color: rgba(43, 200, 137, 0.812);
      text-align: center;
-}
+     margin: 0px !important;
 
+}
+#head:hover {
+    color: burlywood;
+}
 #info {
     color: rgb(5, 121, 134);
     text-align: center;
     margin-left: 40px;
+    border-color: rgb(196, 233, 255);
+    border-radius: 15px;
+
+    
+}
+#info:hover {
+    color:burlywood;
 }
 #info-email {
     color:rgb(19, 116, 108);
     text-align: center;
 }
-#info {
 
+#links {
+    color:rgb(5, 121, 134) ;
+}
+#info-div {
+    margin-top: 100px; 
+    color: aliceblue;
+     border-style: solid; 
+     border-radius: 15px;
+      margin-left: 50px;
+      box-shadow: 10px 10px burlywood;
 }
 
+#info-div:hover {
+    border-color:blue ;
+    box-shadow: 10px 10px 10px red;
+    
+}
+#info-edu {
+    color: greenyellow;
+    text-align: center;
+}
+#info-edu:hover {
+    color: maroon;
+}
+#table-edu {
+    color: whitesmoke;
+    border-color: aliceblue;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+table {
+}
+
+
+table,td, th{
+    border: solid white 1px;
+    color: white;
+    margin-left: 570px;
+    width: 450px;
+}
