@@ -2,6 +2,7 @@
     color: rgba(43, 200, 137, 0.812);
      text-align: center;
      margin: 0px !important;
+          
 
 }
 #head:hover {
@@ -58,13 +59,95 @@ body {
     margin: 0;
 }
 
-table {
-}
-
 
 table,td, th{
     border: solid white 1px;
     color: white;
-    margin-left: 570px;
-    width: 450px;
+    tab-size: 30px;
+    margin-left: 490px;
+    height: 40px;
+    font-size:large;
+}
+
+.material-icons-f { 
+    font-size: 40px; 
+    /* height: 40px;
+    width: 40px;  */
+    text-decoration: none; 
+    margin: 50px 650px; 
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b5998; 
+    color: white; 
+    padding: 6px;
+} 
+
+.material-icons .facebook { 
+padding: 4px !important;
+} 
+
+.material-icons .instagram { 
+    padding: 4px !important;
+    }
+#school-column {
+    width:250px;
+}
+#social-media-header {
+    text-align: center;
+    color: chocolate;
+    margin-left:15px;
+
+}
+#social-media-header:hover {
+    color: rgb(90, 76, 6);
+}
+
+.social-media-container{
+    
+    align-items: center
+}
+
+
+
+
+
+
+.social-icons{
+	padding:30px;
+	background-color:#000000;
+  text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }
